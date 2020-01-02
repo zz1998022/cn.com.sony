@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
 
     width: 100%;
     height: 100%;
@@ -31,4 +32,59 @@ html,body {
 .carousel-item {
 
     height: 100%
+}
+
+// 字体图标
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fuwu:before {
+    content: "\e704";
+}
+
+.icon-cpuchuliqiyingjian:before {
+    content: "\e69d";
+}
+
+.icon-ai38:before {
+    content: "\e69b";
+}
+
+.icon-menu:before {
+    content: "\e894";
+}
+
+.icon-jiantouyou:before {
+    content: "\e62d";
+}
+
+.icon-guanbi:before {
+    content: "\e66b";
+}
+
+.icon-Group-:before {
+    content: "\e689";
+}
+
+.icon-richangjiadianyouxishoubing:before {
+    content: "\e6ad";
+}
+
+.icon-gouwu:before {
+    content: "\e7ed";
 }

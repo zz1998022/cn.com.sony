@@ -1,0 +1,417 @@
+html,
+body {
+  background-color: #fff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: calc(60rem / 32);
+  background-color: #ffffff;
+}
+
+header .button {
+  position: absolute;
+  display: block;
+  height: 100%;
+  left: calc(15rem / 32);
+}
+
+header .button .menu {
+  height: calc(50rem / 32);
+  font-size: calc(24rem / 32);
+  line-height: calc(60rem / 32);
+}
+
+header .button #close {
+  position: absolute;
+  display: none;
+  top: calc(8rem / 32);
+  left: calc(-3rem / 32);
+  font-size: calc(30rem / 32);
+  font-weight: 300;
+}
+
+header .button .search-btn {
+  position: absolute;
+  display: inline-block;
+  width: calc(21rem / 32);
+  height: calc(21rem / 32);
+  background-image: url(../images/serach.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: calc(50rem / 32);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+header .header-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: calc(50rem / 32);
+  height: calc(50rem / 32);
+  background-image: url(../images/header-logo.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header .login {
+  float: right;
+  line-height: calc(60rem / 32);
+  margin-right: calc(20rem / 32);
+  font-size: calc(16rem / 32);
+  color: #157dd2;
+}
+
+.menu-list {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list ul {
+  width: 100%;
+  height: 100%;
+  padding-top: 30%;
+}
+
+.menu-list ul li {
+  width: 100%;
+  font-size: calc(16rem / 32);
+  line-height: calc(48rem / 32);
+}
+
+.menu-list ul li i {
+  margin-left: calc(32rem / 32);
+  margin-right: calc(50rem / 32);
+  font-size: calc(32rem / 32);
+  line-height: calc(48rem / 32);
+  vertical-align: bottom;
+  color: #858585;
+}
+
+.menu-list ul li i:last-child {
+  margin: 0;
+  float: right;
+  font-size: calc(10rem / 32);
+  padding-right: calc(20rem / 32);
+}
+
+.banner {
+  height: calc(416.16rem / 32);
+  padding-top: calc(60rem / 32);
+}
+
+.banner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.banner a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.func {
+  width: 100%;
+  background-color: #1f1f1f;
+  padding-top: calc(14rem / 32);
+  padding-bottom: calc(14rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+}
+
+.func ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.func ul li {
+  width: calc(95.99rem / 32);
+  height: calc(87.46rem / 32);
+  margin-top: calc(5rem / 32);
+  margin-bottom: calc(5rem / 32);
+  padding-left: calc(5rem / 32);
+  padding-right: calc(5rem / 32);
+}
+
+.func ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.func ul li a:hover {
+  background-color: #00a2ff;
+}
+
+.func ul li a img {
+  display: block;
+  width: 100%;
+  height: calc(50.66rem / 32);
+  border-radius: 3px;
+}
+
+.func ul li a p {
+  text-align: center;
+  padding: calc(10rem / 32) 0;
+  color: #1f1f1f;
+}
+
+.ps4-list1 {
+  width: 100%;
+  height: calc(778.11rem / 32);
+  padding-top: calc(54rem / 32);
+  padding-bottom: calc(54rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+}
+
+.ps4-list1 h2 {
+  font-size: calc(28rem / 32);
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+  text-align: center;
+}
+
+.ps4-list1 h2 span {
+  font-weight: 300;
+}
+
+.ps4-list1 .ps4-list1-img {
+  width: 100%;
+  height: calc(241.51rem / 32);
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-list1 .ps4-list1-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.ps4-list1 .ps4-list1-content {
+  width: 100%;
+  height: calc(255.4rem / 32);
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-list1 .ps4-list1-content p {
+  font-size: calc(14rem / 32);
+}
+
+.ps4-list1 .ps4-list1-content p:nth-child(2),
+.ps4-list1 .ps4-list1-content p:nth-child(3) {
+  margin-top: calc(20rem / 32);
+}
+
+.ps4-list1 .ps4-list1-more {
+  width: 100%;
+  height: calc(47.8rem / 32);
+}
+
+.ps4-list1 .ps4-list1-more a {
+  display: block;
+  width: calc(203rem / 32);
+  height: 100%;
+  background-color: #0068bf;
+  text-align: center;
+  line-height: calc(47.8rem / 32);
+  color: #fff;
+  font-size: calc(14rem / 32);
+  margin: 0 auto;
+}
+
+.ps4-list2 {
+  width: 100%;
+  height: calc(764.11rem / 32);
+  padding-top: calc(54rem / 32);
+  padding-bottom: calc(54rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+  background-image: url(../uploads/pc_PS4TOP_05_02_170904_PS4PRO.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.ps4-list2 h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.ps4-list2 h2 span {
+  font-weight: 300;
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-list2 .ps4-list2-img {
+  width: 100%;
+  height: calc(241.51rem / 32);
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-list2 .ps4-list2-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ps4-list2 .ps4-list2-more {
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-list2 .ps4-list2-more p {
+  font-size: calc(14rem / 32);
+  line-height: 1.5;
+  color: #fff;
+  margin-top: calc(30rem / 32);
+  margin-bottom: calc(20rem / 32);
+}
+
+.ps4-list2 .ps4-list2-more p sub {
+  font-size: calc(10rem / 32);
+  margin-top: calc(20rem / 32);
+}
+
+.ps4-list2 .ps4-list2-more div {
+  width: 100%;
+  height: calc(71.8rem / 32);
+  padding-top: calc(15rem / 32);
+}
+
+.ps4-list2 .ps4-list2-more div a {
+  display: block;
+  width: calc(203rem / 32);
+  height: calc(47.8rem / 32);
+  text-align: center;
+  background-color: #0068bf;
+  text-align: center;
+  line-height: calc(47.8rem / 32);
+  margin: 0 auto;
+  color: #fff;
+}
+
+.ps4-game {
+  padding-top: calc(54rem / 32);
+  padding-bottom: calc(54rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+}
+
+.ps4-game h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.ps4-game .ps4-game-list {
+  margin-top: calc(15rem / 32);
+  margin-bottom: calc(15rem / 32);
+}
+
+.ps4-game .ps4-game-list img {
+  height: calc(163.13rem / 32);
+  width: 100%;
+  margin-top: calc(32rem / 32);
+}
+
+.ps4-game .ps4-game-list h6 {
+  margin-top: 1em;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.ps4-game .ps4-game-list div {
+  width: 100%;
+  height: calc(71.8rem / 32);
+  padding-top: 2em;
+}
+
+.ps4-game .ps4-game-list div a {
+  display: block;
+  width: calc(203rem / 32);
+  height: calc(47.8rem / 32);
+  background-color: #0068bf;
+  text-align: center;
+  color: #fff;
+  line-height: calc(47.8rem / 32);
+  margin: 0 auto;
+}
+
+.ps4-player {
+  width: 100%;
+  height: calc(561rem / 32);
+  padding-top: calc(54rem / 32);
+  padding-bottom: calc(54rem / 32);
+  padding-left: calc(15rem / 32);
+  padding-right: calc(15rem / 32);
+  background-image: url(../uploads/ps4-top-article12-bg-20170224.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center 20%;
+}
+
+.ps4-player h2 {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.ps4-player h2 span {
+  font-weight: 300;
+}
+
+.ps4-player .ps4-player-text {
+  width: 100%;
+  height: calc(255.8rem / 32);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.ps4-player .ps4-player-text div {
+  width: 100%;
+  height: calc(194.8rem / 32);
+  padding: 1em;
+  background-color: rgba(31, 31, 31, 0.8);
+  color: #fff;
+}
+
+.ps4-player .ps4-player-text div p {
+  margin-top: 1em;
+  font-size: calc(14rem / 32);
+  font-weight: 300;
+}
+
+.ps4-player .ps4-player-text div p:first-child {
+  margin-top: 0;
+}
+/*# sourceMappingURL=ps4.css.map */
