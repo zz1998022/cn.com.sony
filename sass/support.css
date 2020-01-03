@@ -1,0 +1,404 @@
+html.body {
+  background-color: #fff !important;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: calc(38.4rem / 32);
+  background-color: #000000;
+  text-align: center;
+  line-height: calc(38.4rem / 32);
+}
+
+header img {
+  height: calc(18.04rem / 32);
+  vertical-align: middle;
+}
+
+header .menu-btn {
+  position: absolute;
+  right: 0;
+  width: calc(34.13rem / 32);
+}
+
+.banner {
+  width: 100%;
+  background-image: url(../uploads/mobile-index-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.banner .banner-title {
+  font-size: calc(24rem / 32);
+  text-align: center;
+  padding-top: calc(30rem / 32);
+  margin-bottom: calc(35rem / 32);
+}
+
+.banner h3 {
+  font-size: calc(20rem / 32);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.banner .banner-input {
+  position: relative;
+  width: 100%;
+  width: calc(256rem / 32);
+  margin: 0 auto;
+}
+
+.banner .banner-input input {
+  width: calc(204.8rem / 32);
+  height: calc(31.43rem / 32);
+  padding-left: 10px;
+  border: 1px solid #0290e2;
+  border-radius: 2px;
+  margin-bottom: calc(15rem / 32);
+}
+
+.banner .banner-input a {
+  position: absolute;
+  right: calc(23rem / 32);
+  top: 0;
+  width: calc(51.2rem / 32);
+  height: calc(31.43rem / 32);
+  background-color: #0290e2;
+  border-radius: 0 2px 2px 0;
+  background-image: url(../images/sup-serach.svg);
+  background-repeat: no-repeat;
+  background-size: calc(22rem / 32) calc(22rem / 32);
+  background-position: center;
+}
+
+.banner .banner-input span {
+  display: inline-block;
+  color: #0290e2;
+  border-bottom: 1px solid #0290e2;
+}
+
+.banner .banner-null {
+  height: calc(295rem / 32);
+}
+
+.product {
+  width: 100%;
+}
+
+.product h2 {
+  padding-top: calc(25rem / 32);
+  padding-bottom: calc(20rem / 32);
+  font-size: calc(20rem / 32);
+  text-align: center;
+}
+
+.product ul {
+  width: 100%;
+}
+
+.product ul li {
+  float: left;
+  width: 50%;
+  height: calc(110.93rem / 32);
+  text-align: center;
+}
+
+.product ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.product ul li a img {
+  display: block;
+  min-height: 1rem;
+  max-height: 2rem;
+  margin: 0 auto;
+}
+
+.product ul li a p {
+  margin-top: .4rem;
+  font-size: calc(16rem / 32);
+  color: #000000;
+}
+
+.more-info {
+  width: 100%;
+}
+
+.more-info ul {
+  width: 100%;
+}
+
+.more-info ul li {
+  width: 100%;
+  padding: .6rem .6rem .5rem;
+  background-color: #eef4f7;
+  margin-bottom: 4px;
+}
+
+.more-info ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.more-info ul li a img {
+  float: left;
+  width: calc(52.9rem / 32);
+  height: calc(52.9rem / 32);
+  margin-right: .5rem;
+}
+
+.more-info ul li a div {
+  padding-left: 2em;
+}
+
+.more-info ul li a h2 {
+  display: inline-block;
+}
+
+.more-info ul li a p {
+  display: inline-block;
+}
+
+.more-info ul li a .more-info-title {
+  font-size: calc(16rem / 32);
+  color: #333;
+}
+
+.more-info ul li a .more-info-content {
+  color: #666;
+}
+
+.more-info ul li a span {
+  position: absolute;
+  right: calc(1rem / 32);
+  bottom: calc(-10rem / 32);
+}
+
+.other {
+  width: 100%;
+  padding: .1rem .3rem;
+}
+
+.other h2 {
+  padding-top: .9rem;
+  padding-bottom: .8rem;
+  font-size: calc(18rem / 32);
+  color: #c47529;
+  text-align: center;
+}
+
+.other ul {
+  width: 100%;
+}
+
+.other ul li {
+  width: 100%;
+  margin-bottom: .3rem;
+}
+
+.other ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.other ul li a img {
+  display: block;
+  width: 100%;
+}
+
+.other ul li a div {
+  position: absolute;
+  left: 0;
+  bottom: calc(55rem / 32);
+  padding-top: .6rem;
+  padding-left: .5rem;
+  padding-bottom: .6rem;
+}
+
+.other ul li a div h3 {
+  font-size: calc(16rem / 32);
+  color: #666;
+  font-weight: 700;
+  margin-bottom: .1rem;
+}
+
+.other ul li a div p {
+  font-size: calc(13rem / 32);
+  color: #999;
+}
+
+.other .other-more {
+  text-align: center;
+  font-size: calc(16rem / 32);
+  color: #666666;
+  padding-bottom: .6rem;
+}
+
+.other .other-more div:first-child {
+  margin-bottom: .4rem;
+}
+
+.other .other-more img {
+  width: .6rem;
+}
+
+.more-bus {
+  width: 100%;
+  padding-bottom: .5rem;
+  background-color: #e1e8f0;
+}
+
+.more-bus h2 {
+  font-size: calc(18rem / 32);
+  text-align: center;
+  padding-top: .9rem;
+  padding-bottom: .8rem;
+}
+
+.more-bus ul {
+  width: 100%;
+  padding: 0 .3rem;
+}
+
+.more-bus ul li {
+  position: relative;
+  height: 5.79rem;
+  padding-top: .34rem;
+  padding-left: .3rem;
+  background-color: #fff;
+  margin-bottom: 7px;
+}
+
+.more-bus ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.more-bus ul li a span {
+  display: inline-block;
+  padding: 0 .35rem;
+  line-height: 1rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: .4rem;
+  color: #333;
+}
+
+.more-bus ul li a div {
+  position: absolute;
+  right: 0;
+  top: 1.8rem;
+  width: 60%;
+  height: 3.6rem;
+}
+
+.more-bus ul li a div img {
+  display: inline-block;
+  width: 2.5rem;
+  margin-left: 46px;
+  vertical-align: middle;
+}
+
+.newest {
+  width: 100%;
+  background-color: #f1f4f9;
+}
+
+.newest .newest-title {
+  font-size: .64rem;
+  line-height: 1.86rem;
+  text-align: center;
+}
+
+.newest ul {
+  padding: .3rem;
+  margin-bottom: 0;
+}
+
+.newest ul li {
+  width: 100%;
+  height: 3.9rem;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.newest ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.newest ul li a span {
+  display: inline-block;
+  padding: 0 24px;
+  line-height: 36px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #fd593e;
+  margin-bottom: .34rem;
+}
+
+.newest ul li a div {
+  padding: 0 .66rem;
+}
+
+.newest ul li a div p {
+  font-size: .54rem;
+  line-height: .58rem;
+  color: #2c3640;
+  margin-bottom: .4rem;
+}
+
+.newest ul li a div b {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #657178;
+}
+
+footer {
+  width: 100%;
+  background-color: #1f2024;
+}
+
+footer ul {
+  width: 100%;
+}
+
+footer ul li {
+  width: 100%;
+}
+
+footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 1.4rem;
+  padding: 0 .5rem;
+  color: #7f7f8b;
+  border-bottom: 1px solid #3b3b42;
+}
+
+footer ul li a i {
+  display: block;
+  float: right;
+  color: #bdbdcd;
+}
+
+footer .footer-logo {
+  height: calc(74rem / 32);
+  text-align: center;
+  line-height: calc(74rem / 32);
+}
+
+footer .footer-logo img {
+  width: 2.8rem;
+}
+/*# sourceMappingURL=support.css.map */
